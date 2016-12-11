@@ -1,0 +1,121 @@
+/* Reset css */
+body,p ,h1, h2, h3, h4, h5, h6, ul, li, a{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Global */
+body{
+	width: 100%;
+	/*background-color: red;*/
+}
+
+.corps{
+	width: 90%;
+	margin: auto;
+	/*background-color: green;*/
+}
+
+
+/* Head */
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 20px;
+	height: 100px;
+}
+
+
+/* Body */
+img{
+	width: 100%;
+	height: 450px;
+}
+
+.container{
+	position: relative;
+	height: 450px;
+}
+
+.contenu{
+	position: absolute;
+	top: 25%;
+	left: 35%;
+}
+
+.pos1{
+	position: absolute;
+	top: 90%;
+	left: 25%;	
+}
+
+.pos2{
+	position: absolute;
+	top: 140%;
+	left: 35%;
+	border: 2px solid white;
+	padding: 3px;
+}
+
+.pos2:hover{
+	color: black;
+	background-color: white;
+}
+
+.contenu h2{
+	font-size: 100px;
+	color: white;
+}
+
+.contenu p{
+	font-size: 30px;
+	color: white;
+}
+
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.grand{
+	width: 69%;
+}
+
+.grand:hover{
+	opacity: .5;
+}
+
+.petit{
+	width: 29%;
+}
+
+.petit:hover{
+	opacity: .5;
+}
+
+/* Footer */
+footer{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 104px;
+	/*background-color: blue;*/
+}
+
+footer p{
+	color: grey;
+}
